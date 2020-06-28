@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="container">
+	    <h2>Button Pressed: {{ButtonPressed}}</h2>
+	    <b>
+			<button id="btn" onclick="this.innerHTML=++this.value" value=0 >0</button>
+		</b>
+	 </div>
+{% endblock content %}
